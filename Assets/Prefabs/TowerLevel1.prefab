@@ -9,8 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8236414130043758536}
-  - component: {fileID: 8236414130043758539}
   - component: {fileID: 8236414130043758538}
+  - component: {fileID: 5908479978423872505}
+  - component: {fileID: 2414403409846781412}
   m_Layer: 0
   m_Name: TowerLevel1
   m_TagString: Untagged
@@ -33,19 +34,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8236414130043758539
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8236414130043758581}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70917d1ced1185644968bc2da2a0a4b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _upgrade: {fileID: 4220418409249225107, guid: bb6bad8af78baca4b8f9a49f7909bda6, type: 3}
 --- !u!136 &8236414130043758538
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -59,6 +47,32 @@ CapsuleCollider:
   m_Radius: 0.65
   m_Height: 5.19
   m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5908479978423872505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8236414130043758581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ceae93a5891cbb479d6efced13168f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _upgrade: {fileID: 0}
+--- !u!135 &2414403409846781412
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8236414130043758581}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 4
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8236414130111781155
 GameObject:

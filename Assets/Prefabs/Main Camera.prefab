@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4897942964059051445}
   - component: {fileID: 4897942964059051444}
   - component: {fileID: 4897942964059051443}
-  - component: {fileID: 4897942964059051440}
+  - component: {fileID: 1417547087914809058}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -94,12 +94,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 4897942964059051447}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca00ecba46bb327499a3ed07616145f6, type: 3}
+  m_Script: {fileID: 11500000, guid: c5935746a8df2b54488ffa475dad6cc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _cameraSpeed: 2
   _borderSize: 10
---- !u!114 &4897942964059051440
+--- !u!114 &1417547087914809058
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -108,6 +108,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 4897942964059051447}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d3f986b4647c0844aa69a1a69c89394, type: 3}
+  m_Script: {fileID: 11500000, guid: 7911fb98d3925d448b97c3dd62f0d3c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
